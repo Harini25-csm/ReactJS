@@ -1,0 +1,6 @@
+.c{
+  margin:10px;
+  boder:2px solid black;
+  display:flex;
+  justify-content: center;
+}
