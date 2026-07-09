@@ -2,6 +2,7 @@ import { useState } from "react"
 function Navbar({ cartCount }) {
     return (
         <div>
+            <hr/>
             <h2>Cart items: {cartCount}</h2>
             <hr />
         </div>
