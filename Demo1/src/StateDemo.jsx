@@ -10,6 +10,7 @@ function Counter(){
                 margin:"15px",
                 width:"300px"
             }}>
+
             <h2>Count:{count}</h2>
             <button onClick={()=>setCount(count+1)}>Increment</button><br/><hr/>
             <button onClick={()=>setCount(count-1)}>Decrement</button><br /><hr/>
