@@ -1,6 +1,7 @@
 function Student(props){
     return(
         <div>
+            <hr/>
             <h2>Child Component</h2>
             <p>Name:{props.name}</p>
             <p>Parent:{props.place}</p>

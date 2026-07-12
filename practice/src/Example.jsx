@@ -10,6 +10,7 @@ function Ex(){
     }
     return(
         <div>
+            <hr/>
             <h1>value: {x}</h1>
             <h1>name: {student.name}, age: {student.age}</h1>
             <h1>ReactJS {Ar1()}</h1>

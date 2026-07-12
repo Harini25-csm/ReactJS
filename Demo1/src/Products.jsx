@@ -13,13 +13,14 @@ function Product(props){
             <p><strong>Brand:</strong>{props.brand}</p>
             <p><strong>Price:</strong>{props.price}</p>
             <p><strong>Rating:</strong>{props.rating}</p>
-            <button>Add to cart</button>
+            <button onClick={()=>alert("product added to cart")}>Add to cart</button>
         </div>
     );
 }
 function App1(){
     return(
         <div>
+            <hr/>
             <h1>Online shopping store</h1>
             <Product 
             name="laptop"

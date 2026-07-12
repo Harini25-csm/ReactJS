@@ -54,6 +54,7 @@ class Events extends Component {
                 <form onSubmit={this.submit}>
                     <input type="submit"/>
                 </form>
+                <hr/>
             </div>
         );
     }
